@@ -2,12 +2,20 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  selector: 'page-new-arrivals',
+  templateUrl: 'new-arrivals.html'
 })
-export class ContactPage {
+export class NewArrivalsPage {
 
   constructor(public navCtrl: NavController) {
+
+  }
+
+  getProductDetails(){
+
+  }
+
+  addToCart(){
 
   }
 
