@@ -1,7 +1,6 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, NavParams, LoadingController} from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs'; //Customer Home Page
-import { BoutiqueInfoPage } from '../boutique-info/boutique-info'; //Designer app
 import { Auth } from '../../providers/auth';
 
 
@@ -39,7 +38,9 @@ register(){
     }, (err) => {
         this.loading.dismiss();
     });
- 
+
+
+    // this.navCtrl.setRoot(TabsPage);
   }
  
   showLoader(){

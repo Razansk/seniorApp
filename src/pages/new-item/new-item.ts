@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { TabsPage } from '../tabs/tabs'; //Customer Home Page
 
 
 @Component({
@@ -17,6 +18,7 @@ export class NewItemPage {
 
   addProduct(){
     console.log('added');
+    this.navCtrl.setRoot(TabsPage);
   }
 
   uplodFile(){

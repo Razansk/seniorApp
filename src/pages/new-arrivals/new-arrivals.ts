@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { KessaDetailsPage } from '../kessa-details/kessa-details';
 
 @Component({
   selector: 'page-new-arrivals',
@@ -12,7 +13,7 @@ export class NewArrivalsPage {
   }
 
   getProductDetails(){
-
+    this.navCtrl.setRoot(KessaDetailsPage);
   }
 
   addToCart(){

@@ -3,6 +3,7 @@ import { NavController, NavParams, LoadingController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { Auth } from '../../providers/auth';
 import { SignUpPage } from '../sign-up/sign-up';
+import { BoutiqueInfoPage } from '../boutique-info/boutique-info'; //Designer app
 
 
 
@@ -56,6 +57,8 @@ export class LoginPage {
             this.loading.dismiss();
             console.log(err);
         });
+
+        // this.navCtrl.setRoot(BoutiqueInfoPage);
  
     }
  

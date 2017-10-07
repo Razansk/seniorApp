@@ -15,6 +15,7 @@ import { SignUpPage } from '../pages/sign-up/sign-up';
 import { COrdersPage } from '../pages/c-orders/c-orders';
 import { CardsPage } from '../pages/cards/cards';
 import { PaymentPage } from '../pages/payment/payment';
+import { KessaDetailsPage } from '../pages/kessa-details/kessa-details';
 
 import { DTabsPage } from '../pages/d-tabs/d-tabs';
 import { BoutiqueInfoPage } from '../pages/boutique-info/boutique-info';
@@ -47,6 +48,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     COrdersPage,
     CardsPage,
     PaymentPage,
+    KessaDetailsPage,
 
     DTabsPage,
     BoutiqueInfoPage,
@@ -79,6 +81,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     COrdersPage,
     CardsPage,
     PaymentPage,
+    KessaDetailsPage,
 
     DTabsPage,
     BoutiqueInfoPage,
